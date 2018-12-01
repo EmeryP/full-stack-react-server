@@ -1,0 +1,28 @@
+{
+  "name": "warmup-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmeryP/warmup-express-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmeryP/warmup-express-server/issues"
+  },
+  "homepage": "https://github.com/EmeryP/warmup-express-server#readme",
+  "dependencies": {
+    "babel-env": "^2.4.1",
+    "babel-eslint": "^10.0.1",
+    "babel-register": "^6.26.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jest": "^23.6.0"
+  }
+}
