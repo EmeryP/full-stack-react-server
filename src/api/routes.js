@@ -10,7 +10,8 @@ router.get('/', (req,res) => {
 
 router.get('/content', (req, res) => {
   const fileContent = content();
-  res.json(fileContent);
+  let contentStringified = JSON.parse(fileContent)
+  res.json(contentStringified);
 })
 
 export default router;
