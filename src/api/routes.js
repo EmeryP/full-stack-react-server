@@ -10,8 +10,7 @@ router.get('/', (req,res) => {
 
 router.get('/content', (req, res) => {
   const fileContent = content();
-  res.write(fileContent);
-  res.end();
+  res.json(fileContent);
 })
 
 export default router;
