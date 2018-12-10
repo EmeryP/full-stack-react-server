@@ -3,6 +3,7 @@ Serving data to a react front end hosted on AWS.
 
 ### Links
 * [Front-end GitHub repo](https://github.com/EmeryP/full-stack-react-front-end)
+* [AWS Deployed Site](http://emery-full-stack-react-emeryfullstackreactbucket-sxe6utnrfo0f.s3-website-us-east-1.amazonaws.com/)
 
 ### Remote Hosting
 * This server code is hosted on Heroku here: `https://full-stack-react-server.herokuapp.com`
