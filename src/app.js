@@ -16,6 +16,7 @@ app.use(cors)
 let isRunning = false;
 
 module.exports = {
+  app,
   start: (port) => {
     if(! isRunning){
       app.listen(port, (err) => {

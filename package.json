@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest routes.test.js",
     "start": "node index.js"
   },
   "repository": {
@@ -23,8 +23,10 @@
     "babel-register": "^6.26.0",
     "cors": "^2.8.5",
     "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "fs": "0.0.1-security",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
   }
 }
