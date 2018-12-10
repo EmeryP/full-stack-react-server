@@ -14,3 +14,11 @@ Serving data to a react front end hosted on AWS.
   * Throw this - `https://full-stack-react-server.herokuapp.com/` in your browser to see a `Server Home` returned.
 * `(/content)` route will return a static json file with styling. 
   * Throw this - `https://full-stack-react-server.herokuapp.com/content` in your browser to see the unstyled json.
+
+
+### UML
+[Full-stack-react-UML](assets/full-stack-react-uml.jpg)
+
+
+### Author
+Emery Parks
