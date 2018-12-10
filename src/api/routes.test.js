@@ -22,6 +22,7 @@ describe('Routes', () => {
   })
 
   xit('should throw a 500 error', async() => {
+    //Need to seek help here...
     // const response = await mockRequest.get('/turtles')
     // expect(response.status).toBe(500)
   })

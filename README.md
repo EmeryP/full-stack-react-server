@@ -1,13 +1,16 @@
 # Full-stack-react-server
 Serving data to a react front end hosted on AWS. 
 
+### Links
+* [Front-end GitHub repo](https://github.com/EmeryP/full-stack-react-front-end)
+
 ### Remote Hosting
 * This server code is hosted on Heroku here: `https://full-stack-react-server.herokuapp.com`
 
-### Local Setup
+### Local Setup & Testing
 * Clone this repo to your local machine.
 * Run `npm i`, then...
-* Run `npm test` to see the tests results
+* Run `npm test` to run tests and see the results
 
 ### API
 * `(/)` route will return `Server Home`. 
