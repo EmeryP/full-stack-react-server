@@ -12,8 +12,7 @@ describe('Routes', () => {
 
   it('should return the content.json', async() => {
     const response = await mockRequest.get('/content')
-    console.log(response.text)
-    // expect(response.text).toBe('Server Home')
+    expect(response.body[0].deckTitle).toBe('My Deck of Stuff')
     expect(response.status).toBe(200)
   })
 
@@ -21,8 +20,6 @@ describe('Routes', () => {
     const response = await mockRequest.get('/turtles')
     expect(response.status).toBe(404)
   })
-
-
 
   xit('should throw a 500 error', async() => {
     // const response = await mockRequest.get('/turtles')
