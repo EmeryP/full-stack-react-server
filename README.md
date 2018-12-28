@@ -1,5 +1,5 @@
 # Full-stack-react-server
-An Express server serving a JSON file for a React front end hosted on AWS. 
+An Express server serving a JSON file (src/middleware/public/content.json) for a React front end hosted on AWS. 
 
 ### Links
 * [Front-end GitHub repo](https://github.com/EmeryP/full-stack-react-front-end)
