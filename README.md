@@ -1,5 +1,5 @@
 # Full-stack-react-server
-Serving data to a react front end hosted on AWS. 
+An Express server serving a JSON file for a React front end hosted on AWS. 
 
 ### Links
 * [Front-end GitHub repo](https://github.com/EmeryP/full-stack-react-front-end)
@@ -19,10 +19,8 @@ Serving data to a react front end hosted on AWS.
 * `(/content)` route will return a static json file with styling. 
   * Throw this - `https://full-stack-react-server.herokuapp.com/content` in your browser to see the unstyled json.
 
-
 ### UML
 [Full-stack-react-UML](assets/full-stack-react-uml.jpg)
-
 
 ### Author
 Emery Parks
